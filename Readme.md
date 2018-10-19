@@ -44,7 +44,7 @@ Install semua dependency dibawah secara global menggunakan "yarn" :
 11. Jika sukses. lanjut eksekusi react-native dengan mendefinisikan project folder android dan ios serta meregistrasi sebagai project baru.
 12. Sebelum mengeksekusi perintah react-native, silahkan membuat definisi project react-native dulu untuk menggenerasi folde android dan ios nantinya serta meregistrasi project tersebut. Buatlah file "app.json" pada root direktori project. kenapa app.json, sebab default nama app dan app file react-native adalah aap dan definisinya adalah json maka jadilah file app.json.
 13. Setelah file dibuat isi script dibawah kedalam file tersebut :
-    ```javascript
+    ```json
         {
             "name": "NAMA_SESUAI_DENGAN_NAMA_DALAM_FILEPACKAGE.JSON",
             "displayName": "NAMA_SESUAI_DENGAN_NAMA_DALAM_FILEPACKAGE.JSON"
