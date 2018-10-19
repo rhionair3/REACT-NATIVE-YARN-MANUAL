@@ -1,0 +1,30 @@
+{
+  "name": "YARNRNCOREMANUAL",
+  "version": "1.0.0-preBuild",
+  "description": "Manual Install React-Native Using Yarn",
+  "main": "index.js",
+  "repository": "https://github.com/github.com/rhionair3",
+  "author": "Suryo Galih Kencana Harianja",
+  "license": "MIT",
+  "scripts": {
+    "generate-mobile": "react-native eject",
+    "start": "yarn node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@babel/runtime": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\babel-runtime",
+    "babel-jest": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\babel-jest",
+    "jest": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\jest",
+    "metro-react-native-babel-preset": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\metro-react-native-babel-preset",
+    "react": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\react",
+    "react-native": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\react-native",
+    "react-navigation": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\react-navigation",
+    "react-test-renderer": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\react-test-renderer",
+    "schedule": "file:C:\\Users\\Suryo.Galih\\AppData\\Local\\Yarn\\Data\\global\\node_modules\\schedule"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
